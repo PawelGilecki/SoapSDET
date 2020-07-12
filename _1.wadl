@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="https://restcountries.eu"/>
+  <resources base="https://restcountries.eu">
+    <resource path="rest/v2/name/poland" id="Poland">
+      <doc xml:lang="en" title="Poland"/>
+      <method name="GET" id="Poland 1">
+        <doc xml:lang="en" title="Poland 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="application/json;charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>
